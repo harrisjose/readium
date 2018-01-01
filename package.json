@@ -1,7 +1,9 @@
 {
-    "name": "Readium",
-    "version": "2.0.0",
-    "description": "Just a medium-like blogging platform.",
-    "author": "Sven Read",
-    "homepage": "http://www.svenread.com/readium"
+    "name": "echo",
+    "version": "1.0.0",
+    "description": "Clean and minimal theme for Ghost. Used at harrisjose.me",
+    "author": {
+        "name": "Harris Jose",
+        "email": "harrisjose@outlook.com"
+    }
 }

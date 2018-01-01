@@ -11,7 +11,6 @@
 
     {{! Page Meta }}
     <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
@@ -41,7 +40,7 @@
 </head>
 <body class="{{body_class}}">
 
-    <a href="{{@blog.url}}" class="logo-readium"><span class="logo" style="background-image: url({{@blog.logo}})"></span></a>
+    {{!-- <a href="{{@blog.url}}" class="logo-readium"><span class="logo" style="background-image: url({{@blog.logo}})"></span></a> --}}
     {{! Everything else gets inserted here }}
     {{{body}}}
 
